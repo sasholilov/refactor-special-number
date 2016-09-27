@@ -4,9 +4,9 @@ class Program
 {
     static void Main()
     {
-int kolkko = int.Parse(Console.ReadLine());
+int n = int.Parse(Console.ReadLine());
 int obshto = 0; int takova = 0; bool toe = false;
-for (int ch = 1; ch <= kolkko; ch++)
+for (int ch = 1; ch <= n; ch++)
 {
     takova = ch;
     while (ch > 0)
